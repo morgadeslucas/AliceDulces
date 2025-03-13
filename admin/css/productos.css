@@ -1,0 +1,153 @@
+:root{
+    --color1:#CFFFB3;
+    --color2:#3B7080;
+    --color3:#3A5743;
+    --color4:#F1F2F6;
+    --color5:#AEB8FE;
+    --color6:#FF8600;
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.product_con{
+    width: 77%;
+    height: 100vh;
+}
+
+.perfil{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-top: 20px;
+}
+
+.perfil h5{
+    margin-right: 20px;
+    font-size: 20px;
+    font-family: serif;
+    font-weight: 500;
+    color: #b47043;
+}
+
+.buscador{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.con_in{
+    width: 470px;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.con_in input{
+    border: 2px solid #b47043;
+    height: 35px;
+}
+
+.botones{
+    width: 100%;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px; 
+}
+
+
+
+.anadir{
+    width: 250px;
+    height: 100%;
+}
+
+.imprimir{
+    width: 280px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imprimir a{
+    width: 200px;
+    height: 100%;
+    background-color: #b47043;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+}
+
+.imprimir p{
+    margin-top: 12px;
+    font-size: 20px;
+    font-family: serif;
+    font-weight: 400;
+}
+
+.imprimir i{
+    font-size: 20px;
+}
+
+.texto{
+    width: 100%;
+    height: 35px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.texto h3{
+    font-size: 25px;
+    font-family: serif;
+    color: #b47043;
+}
+
+.formulario input{
+    margin-top: 15px;
+}
+
+.formulario textarea{
+    margin-top: 15px;
+    height: 150px;
+}
+
+.tab{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.caja{
+    width: 95%;
+    height: 100%;
+    overflow: auto;
+}
+
+
+.caja table thead{
+    position: sticky;
+    top:0;
+}

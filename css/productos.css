@@ -1,0 +1,421 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.primer{
+    width: 100%;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(156, 86, 0);
+}
+
+.sec{
+    width: 600px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.seco{
+    width: 350px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.primer_inf{
+    width: 250px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.primer_inf p{
+    font-size: 19px;
+    margin-top: 10px;
+    font-weight: 400;
+    color: white;
+}
+
+.primer_inf i{
+    margin-bottom: 5px;
+    margin-right: 10px;
+    font-size: 20px;
+    color: white;
+}
+
+.header{
+    height: 400px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(../img/fondo2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+.con{
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu-am button{
+    width: 80px;
+    height: 50px;
+    margin-right: 10px;
+    padding: 5px;
+    background-color: white;
+}
+
+.menu-am button i{
+    font-size: 20px;
+    color: black;
+
+}
+
+.nave{
+    width: 280px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.nave ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.nave ul li{
+    list-style: none;
+}
+
+.nave ul li a{
+    color: black;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: 400;
+    &:hover{
+        color: rgb(10, 66, 206);
+    }
+}
+
+
+.nav{
+    width: 450px;
+    height: 100%;
+    display: flex;
+}
+
+.nav ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav ul li{
+    list-style: none;
+}
+
+.nav ul li a{
+    color: black;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: 400;
+    &:hover{
+        color: rgb(10, 66, 206);
+    }
+}
+
+.admin{
+    width: 35px;
+    height: 35px;
+    background-color: rgb(106, 32, 7);
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 5px rgba(214, 210, 210, 0.381);
+}
+
+.admin i{
+    color: white;
+}
+
+.logo{
+    width: 350px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.logo img{
+    width: 40px;
+    height: 40px;
+}
+
+.logo h2{
+    color: rgb(97, 63, 3);
+    font-weight: bolder;
+}
+
+.ancla{
+    color: rgb(103, 61, 14);
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+
+
+.text-header{
+    height: 350px;
+    .txt{
+        color: white;
+        font-weight: bolder;
+        font-family: serif;
+    }
+}
+
+
+.cate {
+    margin-top: 15px;
+}
+
+.cate_ancla{
+    width: 900px;
+    height: 30px;
+    display: flex;
+    align-self: center;
+    justify-content: space-evenly;
+}
+
+.cate_ancla a{
+    text-decoration: none;
+    font-size: 18px;
+    color: rgb(110, 62, 18);
+    font-weight: 500;
+    &:hover{
+        color: rgb(37, 68, 129);
+        border-bottom: 2px solid rgb(37, 68, 129);
+        border-radius: 5px;
+    }
+}
+
+.productos_tarj{
+    /* width: 90%;
+    height: auto; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.tarjeta{
+    width: 280px;
+    height: 350px;
+    background-color: rgb(255, 254, 252);
+    margin: 30px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.39);
+}
+
+.tarjeta_img{
+    width: 100%;
+    height: 55%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tarjeta_img img{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    border: 4px solid rgb(75, 52, 2);
+    object-fit: cover;
+    transition: 1s ease-in-out;
+    &:hover{
+        transform: scale(1.1);
+    }
+}
+
+.tarjeta_txt{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.tarjeta_txt h4{
+    font-weight: bolder;
+    color: rgb(75, 48, 9);
+}
+
+.tarjeta_txt p{
+    font-size: 15px;
+    color: rgb(75, 48, 9);
+}
+
+.tarjeta_precio{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tarjeta_precio a{
+    width: 200px;
+    height: 35px;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(82, 56, 4);
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: 1s ease-in-out;
+    margin-bottom: 10px;
+    &:hover{
+        background-color: rgb(126, 74, 4);
+        color: white;
+    }
+
+}
+
+@media screen and (width < 450px){
+
+    .primer{
+        display: none;
+    }
+    /* .primer_inf p{
+        font-size: 10px;
+    }
+    
+    .primer_inf i{
+        font-size: 10px;
+    }
+    .primer_inf{
+        width: 600px;
+    } */
+    .sec{
+        width: 60%;
+    }
+
+    .banner3{
+        padding: 3px;
+    }
+    
+    .seco{
+        width: 35%;
+    }
+
+    .inc{
+        width: 100%;
+        height: 100%;
+    }
+
+    .iman{
+        width: 300px;
+        height: 200px;
+    }
+
+    .iman img{
+        width: 300px;
+        height: 200px;
+    }
+
+    .table{
+        width: 300px;
+    }
+
+    .caja_service p{
+        font-size: 18px;
+    }
+    .logo{
+        width: 250px;
+    }
+}
+
+
+@media screen and (width >= 460px) and (width <= 700px){
+
+    .primer_inf p{
+        font-size: 13px;
+    }
+    
+    .primer_inf i{
+        font-size: 13px;
+    }
+    .primer_inf{
+        width: 600px;
+    }
+    .sec{
+        width: 60%;
+    }
+
+    .banner3{
+        padding: 3px;
+    }
+    
+    .seco{
+        width: 35%;
+    }
+
+    .caja_service p{
+        font-size: 15px;
+    }
+
+    .logo{
+        width: 250px;
+    }
+
+}
+
+@media screen and (width >= 800px) and (width <= 900px){
+    .banner3{
+        padding: 0px;
+    }
+    .inc{
+        width: 100%;
+        height: 100%;
+    }
+
+    .iman{
+        width: 700px;
+        height: 300px;
+        margin-top: 10px;
+    }
+
+    .iman img{
+        width: 700px;
+        height: 300px;
+    }
+    .horario_img{
+        width: 450px;
+        height: 350px;
+        /* object-fit: cover; */
+    }
+}

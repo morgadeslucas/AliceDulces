@@ -141,79 +141,20 @@
             <div class="about container d-flex justify-content-center">
                     <h2>BEST PRODUCT</h2>
             </div>
-            <div class="tarjeta">
-                <div class="tarjeta_img">
-                    <img src="./img/10.jpg" alt="">
-                </div>
-                <div class="tarjeta_txt">
-                    <h4>Pastel de frutas</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                </div>
-                <div class="tarjeta_precio">
-                    <p>2500 xfa</p>
-                </div>
+            <div class="container d-flex justify-content-center" id="best">
+                <!-- <div class="tarjeta">
+                    <div class="tarjeta_img">
+                        <img src="./img/10.jpg" alt="">
+                    </div>
+                    <div class="tarjeta_txt">
+                        <h4>Pastel de frutas</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                    <div class="tarjeta_precio">
+                        <p>2500 xfa</p>
+                    </div>
+                </div> -->
             </div>
-            <div class="tarjeta">
-                <div class="tarjeta_img">
-                    <img src="./img/10.jpg" alt="">
-                </div>
-                <div class="tarjeta_txt">
-                    <h4>Pastel de frutas</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                </div>
-                <div class="tarjeta_precio">
-                    <p>2500 xfa</p>
-                </div>
-            </div>
-            <div class="tarjeta">
-                <div class="tarjeta_img">
-                    <img src="./img/10.jpg" alt="">
-                </div>
-                <div class="tarjeta_txt">
-                    <h4>Pastel de frutas</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                </div>
-                <div class="tarjeta_precio">
-                    <p>2500 xfa</p>
-                </div>
-            </div>
-            <div class="tarjeta">
-                <div class="tarjeta_img">
-                    <img src="./img/10.jpg" alt="">
-                </div>
-                <div class="tarjeta_txt">
-                    <h4>Pastel de frutas</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                </div>
-                <div class="tarjeta_precio">
-                    <p>2500 xfa</p>
-                </div>
-            </div>
-            <div class="tarjeta">
-                <div class="tarjeta_img">
-                    <img src="./img/10.jpg" alt="">
-                </div>
-                <div class="tarjeta_txt">
-                    <h4>Pastel de frutas</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                </div>
-                <div class="tarjeta_precio">
-                    <p>2500 xfa</p>
-                </div>
-            </div>
-            <div class="tarjeta">
-                <div class="tarjeta_img">
-                    <img src="./img/10.jpg" alt="">
-                </div>
-                <div class="tarjeta_txt">
-                    <h4>Pastel de frutas</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                </div>
-                <div class="tarjeta_precio">
-                    <p>2500 xfa</p>
-                </div>
-            </div>
-
         </div>
     </section>
 
@@ -259,5 +200,6 @@
 
     </section>
     <script src="./js/bootstrap.min.js"></script>   
+    <script src="./js/bestproduct.js"></script>
 </body>
 </html>

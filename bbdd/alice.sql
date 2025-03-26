@@ -46,3 +46,8 @@ create table pago(
     
 	FOREIGN KEY (id_pedido) REFERENCES pedido(id_pedido)
 );
+
+-- Query to select the first 6 products
+SELECT * 
+FROM producto
+LIMIT 6;

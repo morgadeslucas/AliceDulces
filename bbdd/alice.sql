@@ -48,6 +48,3 @@ create table pago(
 );
 
 -- Query to select the first 6 products
-SELECT * 
-FROM producto
-LIMIT 6;

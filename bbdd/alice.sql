@@ -1,5 +1,4 @@
 -- Active: 1728287207948@@127.0.0.1@3306@alice_dulces
-drop database alice_dulces;
 create database alice_dulces;
 use alice_dulces;
 

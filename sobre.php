@@ -31,8 +31,8 @@
                     <li><a href="./productos.php" class="ancla">Producto</a></li>
                     <li><a href="#" class="ancla">Sobre Nosotros</a></li>
                     <li><a href="./contacto.php" class="ancla">Contacto</a></li>
-                    <li><a href="./carrito.php" class="ancla"><i class="fa-solid fa-cart-shopping"></i></a></li>
-                    <li><a href="./login.php" class="admin"><i class="fa-solid fa-user"></i></a></li>
+                    <!-- <li><a href="./carrito.php" class="ancla"><i class="fa-solid fa-cart-shopping"></i></a></li> -->
+                    <!-- <li><a href="./login.php" class="admin"><i class="fa-solid fa-user"></i></a></li> -->
                 </ul>
             </nav>
 
@@ -51,8 +51,8 @@
                             <li><a href="./productos.php" class="ancla">Producto</a></li>
                             <li><a href="#" class="ancla">Sobre Nosotros</a></li>
                             <li><a href="./contacto.php" class="ancla">Contacto</a></li>
-                            <li><a href="./carrito.php" class="ancla"><i class="fa-solid fa-cart-shopping"></i></a></li>
-                            <li><a href="./login.php" class="admin"><i class="fa-solid fa-user"></i></a></li>
+                            <!-- <li><a href="./carrito.php" class="ancla"><i class="fa-solid fa-cart-shopping"></i></a></li> -->
+                            <!-- <li><a href="./login.php" class="admin"><i class="fa-solid fa-user"></i></a></li> -->
                         </ul>
                     </nav>
                     </div>

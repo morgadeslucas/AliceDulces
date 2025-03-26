@@ -10,6 +10,22 @@ body{
     display: flex;
 }
 
+.formulario{
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.formulario input{
+    margin-top: 6px;
+}
+
+.formulario select{
+    margin-top: 10px;
+}
+
 .stock_con{
     width: 77%;
     height: 100vh;

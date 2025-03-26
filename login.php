@@ -11,17 +11,23 @@
 </head>
 <body>
     <a href="./index.php" class="inicio">Volver al Inicio</a>
-    <form action="" class="formulario">
+    <form class="formulario" id="inicio" method="POST">
         <div class="login">
             <h1>LOGIN</h1>
         </div>
         <div class="inputs">
-            <input type="text" class="form-control" placeholder="Introduzca su nombre de usuario">
-            <input type="password" class="form-control" placeholder="Introduzca su contraseña">
+            <input name="email" type="email" class="form-control" placeholder="Introduzca su nombre de usuario">
+            <input name="pwd" type="password" class="form-control" placeholder="Introduzca su contraseña">
         </div>
         <div class="enviar">
             <input type="submit" class="form-control" value="Iniciar Sesión">
         </div>
     </form>
+    <div class="crearCuenta">
+        <a href="./loginsesion.php">Crear Cuenta</a>
+    </div>
+
+
+    <script src="./js/iniciarsesion.js"></script>
 </body>
 </html>

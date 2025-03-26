@@ -22,7 +22,7 @@
     <header class="header">
         <div class=" con">
             <div class="logo d-flex">
-                <img src="./img/pasteleria.png" alt="">
+                <a href="./login.php"><img src="./img/pasteleria.png" alt=""></a>
                 <h2 style="margin: 5px">ALICE DULCES</h2>
             </div>
             <nav class="nav d-none d-lg-block">
@@ -31,8 +31,8 @@
                     <li><a href="./productos.php" class="ancla">Producto</a></li>
                     <li><a href="./sobre.php" class="ancla">Sobre Nosotros</a></li>
                     <li><a href="./contacto.php" class="ancla">Contacto</a></li>
-                    <li><a href="./carrito.php" class="ancla"><i class="fa-solid fa-cart-shopping"></i></a></li>
-                    <li><a href="./login.php" class="admin"><i class="fa-solid fa-user"></i></a></li>
+                    <!-- <li><a href="./carrito.php" class="ancla"><i class="fa-solid fa-cart-shopping"></i></a></li> -->
+                    <!-- <li><a href="./login.php" class="admin"><i class="fa-solid fa-user"></i></a></li> -->
                 </ul>
             </nav>
 
@@ -51,8 +51,8 @@
                             <li><a href="./productos.php" class="ancla">Producto</a></li>
                             <li><a href="./sobre.php" class="ancla">Sobre Nosotros</a></li>
                             <li><a href="./contacto.php" class="ancla">Contacto</a></li>
-                            <li><a href="./carrito.php" class="ancla"><i class="fa-solid fa-cart-shopping"></i></a></li>
-                            <li><a href="./login.php" class="admin"><i class="fa-solid fa-user"></i></a></li>
+                            <!-- <li><a href="./carrito.php" class="ancla"><i class="fa-solid fa-cart-shopping"></i></a></li> -->
+                            <!-- <li><a href="./login.php" class="admin"><i class="fa-solid fa-user"></i></a></li> -->
                         </ul>
                     </nav>
                     </div>

@@ -21,12 +21,12 @@
             </div>
         </div>
         <div class="text_reser">
-            <h4>LISTA DE RESERVAS</h4>
+            <h4>LISTA DE PEDIDOS</h4>
         </div>
 
         <div class="btn_reser">
             <div class="informe">
-                <a href=""><i class="fa-regular fa-clipboard"></i><span>Imprimir informe general</span></a>
+                <a href="./reportes/listapedidos.php"><i class="fa-regular fa-clipboard"></i><span>Imprimir informe general</span></a>
             </div>
         </div>
         <div class="reserva">
@@ -35,16 +35,16 @@
                     <thead>
                         <tr>
                             <th class="text-center">Nombre Cliente</th>
-                            <th class="text-center">Telefono contacto</th>
                             <th class="text-center">Correo</th>
                             <th class="text-center">Nombre producto</th>
                             <th class="text-center">Cantidad</th>
-                            <th class="text-center">Precio</th>
+                            <th class="text-center">Total</th>
+                            <th class="text-center">Estado</th>
                             <th class="text-center">Acción</th>
                         </tr>
                     </thead>
-                    <tbody>
-                        <tr>
+                    <tbody id="pedido_tabla">
+                        <!-- <tr>
                             <td class="text-center">Marcos</td>
                             <td class="text-center">+240 555 503 546</td>
                             <td class="text-center">Marcossantander@gmail.com</td>
@@ -121,11 +121,14 @@
                                 <i class="fa-solid fa-check btn btn-success"></i>
                                 <i class="fa-solid fa-xmark btn btn-danger"></i>
                             </td>
-                        </tr>
+                        </tr> -->
                     </tbody>
                 </table>
             </div>
         </div>
     </div>
+
+    <script src="./js/crudpedido.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script> 
 </body>
 </html>

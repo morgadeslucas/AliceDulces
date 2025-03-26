@@ -22,7 +22,7 @@
                 <a href="./productos.php"><i class="fa-solid fa-cookie-bite"></i>Producto</a>
             </div>
             <div class="anclaje">
-                <a href="./reserva.php"><i class="fa-solid fa-clipboard-list"></i>Listado de reservas</a>
+                <a href="./reserva.php"><i class="fa-solid fa-clipboard-list"></i>Listado de pedidos</a>
             </div>
             <div class="anclaje">
                 <a href="./pagos.php"><i class="fa-solid fa-money-bills"></i>Pagos</a>

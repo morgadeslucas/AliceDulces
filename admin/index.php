@@ -1,3 +1,19 @@
+<?php
+
+    require "./php/conexion.php";
+
+    $sql = "  SELECT COUNT(*) AS total_productos FROM producto";
+    $result = $conexion->query($sql);
+
+    $pedido = "SELECT COUNT(*) AS total_pedido FROM pedido";
+    $respu = $conexion->query($pedido);
+
+    $confir = "SELECT COUNT(*) AS pedido_confirmado FROM pedido WHERE estado = 'confirmado'";
+    $rest = $conexion->query($confir);
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -23,19 +39,25 @@
         </div>
         <div class="infore">
             <div class="infore_con">
-                <i class="fa-solid fa-boxes-stacked"></i>                
+                <i class="fa-solid fa-boxes-stacked"></i> 
+                  <?php while($row = $result->fetch_assoc()){?>             
                 <h3>Total de productos</h3>
-                <p>19</p>
+                <p><?php echo $row['total_productos']?></p>
+                <?php } ?>
             </div>
             <div class="infore_con">
                 <i class="fa-solid fa-cookie-bite"></i>
-                <h3>Productos reservados</h3>
-                <p>200</p>
+                <?php while($fila = $respu->fetch_assoc()){?>             
+                <h3>Total de pedidos</h3>
+                <p><?php echo $fila['total_pedido']?></p>
+                <?php } ?>
             </div>
             <div class="infore_con">
                 <i class="fa-regular fa-circle-check"></i>
-                <h3>Reservas realizadas</h3>
-                <p>234</p>
+                <?php while($obj = $rest->fetch_assoc()){?>             
+                <h3>Pedidos Confirmados</h3>
+                <p><?php echo $obj['pedido_confirmado']?></p>
+                <?php } ?>
             </div>
             <div class="infore_con">
                 <i class="fa-solid fa-clipboard-list"></i>

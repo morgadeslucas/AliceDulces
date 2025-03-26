@@ -128,3 +128,19 @@ body{
     position: sticky;
     top: 0;
 }
+
+.confirm-activo{
+     background-color: rgb(5, 146, 5);
+     color: white;
+}
+
+.cancel-activo{
+    background-color: rgb(234, 9, 9);
+    color: white;
+}
+
+.confirm-pendiente{
+    background-color: rgb(4, 57, 113);
+    color: white;
+}
+

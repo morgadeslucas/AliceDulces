@@ -31,8 +31,8 @@
                         <li><a href="#" class="ancla">Producto</a></li>
                         <li><a href="./sobre.php" class="ancla">Sobre Nosotros</a></li>
                         <li><a href="./contacto.php" class="ancla">Contacto</a></li>
-                        <li><a href="./carrito.php" class="ancla"><i class="fa-solid fa-cart-shopping"></i></a></li>
-                        <li><a href="./login.php" class="admin"><i class="fa-solid fa-user"></i></a></li>
+                        <!-- <li><a href="./carrito.php" class="ancla"><i class="fa-solid fa-cart-shopping"></i></a></li> -->
+                        <!-- <li><a href="./login.php" class="admin"><i class="fa-solid fa-user"></i></a></li> -->
                     </ul>
                 </nav>
 
@@ -51,8 +51,8 @@
                                 <li><a href="#" class="ancla">Producto</a></li>
                                 <li><a href="./sobre.php" class="ancla">Sobre Nosotros</a></li>
                                 <li><a href="./contacto.php" class="ancla">Contacto</a></li>
-                                <li><a href="./carrito.php" class="ancla"><i class="fa-solid fa-cart-shopping"></i></a></li>
-                                <li><a href="./login.php" class="admin"><i class="fa-solid fa-user"></i></a></li>
+                                <!-- <li><a href="./carrito.php" class="ancla"><i class="fa-solid fa-cart-shopping"></i></a></li> -->
+                                <!-- <li><a href="./login.php" class="admin"><i class="fa-solid fa-user"></i></a></li> -->
                             </ul>
                         </nav>
                         </div>
@@ -69,8 +69,8 @@
         <h4>NUESTROS PRODUCTOS</h4>
     </section>
 
-    <div class="productos_tarj container">
-            <div class="tarjeta">
+    <div class="productos_tarj container" id="productos">
+            <!-- <div class="tarjeta">
                 <div class="tarjeta_img">
                     <img src="./img/10.jpg" alt="">
                 </div>
@@ -147,9 +147,10 @@
                 <div class="tarjeta_precio">
                     <a href="">Realizar Encargo</a>
                 </div>
-            </div>
+            </div> -->
     </div>
 
     <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/verproducto.js"></script>
 </body>
 </html>

@@ -9,6 +9,16 @@ create table usuario(
     contra varchar(100)
 );
 
+create table producto(
+	id_producto int primary key auto_increment,
+    foto VARCHAR(100) not null,
+    nombre_producto varchar(100) not null,
+    descripcion varchar(100) not null,
+    precio int not null,
+    stock_disponible int
+);
+
+
 
 create table pedido(
 	id_pedido int primary key auto_increment,
@@ -24,16 +34,6 @@ create table pedido(
     estado enum("Pendiente","Confirmado","Cancelado") default "Pendiente",
     
 	FOREIGN KEY (id_producto) REFERENCES producto(id_producto)
-);
-
-
-create table producto(
-	id_producto int primary key auto_increment,
-    foto VARCHAR(100) not null,
-    nombre_producto varchar(100) not null,
-    descripcion varchar(100) not null,
-    precio int not null,
-    stock_disponible int
 );
 
 
